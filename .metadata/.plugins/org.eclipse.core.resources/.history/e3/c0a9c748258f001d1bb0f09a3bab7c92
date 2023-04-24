@@ -1,0 +1,5 @@
+package com.sumit.api.javablogapis.services;
+
+public interface PostService {
+
+}

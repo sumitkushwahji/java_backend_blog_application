@@ -1,0 +1,34 @@
+package com.sumit.api.javablogapis.services;
+
+import java.util.List;
+
+import com.sumit.api.javablogapis.entities.Post;
+import com.sumit.api.javablogapis.payloads.PostDto;
+
+public interface PostService {
+
+	
+//	Create
+	Post createPost(PostDto postDto);
+	
+//	update
+	Post updatePost(PostDto postDto, Integer postId);
+	
+//	delete
+	void deletePost(Integer postId);
+	
+//	get
+	Post getPostById(PostDto postDto, Integer postId);
+	
+//	getall
+	List<Post> getAllPost();
+	
+//	get all posts by category
+	List<Post> getPostByCategory(Integer categoryId);
+	
+//	get all posts by user
+	List<Post> getPostByUser(Integer userId);
+
+//	search post
+	List<Post> searchPost(String keyword);
+}

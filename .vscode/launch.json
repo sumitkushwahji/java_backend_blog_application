@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-JavaBlogApisApplication<java-blog-apis>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sumit.api.javablogapis.JavaBlogApisApplication",
+            "projectName": "java-blog-apis",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

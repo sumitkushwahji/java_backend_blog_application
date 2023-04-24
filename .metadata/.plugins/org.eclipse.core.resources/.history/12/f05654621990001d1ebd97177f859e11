@@ -1,0 +1,71 @@
+package com.sumit.api.javablogapis.services.impl;
+
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.sumit.api.javablogapis.entities.Post;
+import com.sumit.api.javablogapis.payloads.PostDto;
+import com.sumit.api.javablogapis.repositories.PostRepo;
+import com.sumit.api.javablogapis.services.PostService;
+
+public class PostServiceImpl implements PostService {
+
+	@Autowired
+	private PostRepo postRepo; 
+	
+	@Autowired
+	private ModelMapper modelMapper;
+	
+	
+	
+	@Override
+	public Post createPost(PostDto postDto,Integer userId, Integer categoryid) {
+	
+		return null;
+	}
+
+	@Override
+	public Post updatePost(PostDto postDto, Integer postId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deletePost(Integer postId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Post getPostById(PostDto postDto, Integer postId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Post> getAllPost() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Post> getPostByCategory(Integer categoryId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Post> getPostByUser(Integer userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Post> searchPost(String keyword) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

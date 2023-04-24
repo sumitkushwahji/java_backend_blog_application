@@ -1,0 +1,5 @@
+package com.sumit.api.javablogapis.entities;
+
+public class Post {
+
+}
